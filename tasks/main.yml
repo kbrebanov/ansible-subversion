@@ -1,2 +1,6 @@
 ---
 # tasks file for subversion
+
+- name: Install subversion package
+  yum: name=subversion state=present
+  tags: subversion
