@@ -1,0 +1,6 @@
+---
+# tasks file for subversion (Ubuntu specific)
+
+- name: Install subversion package
+  apt: name=subversion state=present update_cache=yes
+  tags: subversion

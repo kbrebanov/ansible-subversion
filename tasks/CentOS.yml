@@ -1,0 +1,6 @@
+---
+# tasks file for subversion (CentOS specific)
+
+- name: Install subversion package
+  yum: name=subversion state=present
+  tags: subversion
