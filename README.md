@@ -11,17 +11,22 @@ This role requires Ansible 1.4 or higher.
 Role Variables
 --------------
 
+None
+
 Dependencies
 ------------
+
+None
 
 Example Playbook
 ----------------
 
-1) Install subversion
-
-    - hosts: all
-      roles:
-         - { role: subversion }
+Install subversion
+```
+- hosts: all
+  roles:
+    - { role: kbrebanov.subversion }
+```
 
 License
 -------
