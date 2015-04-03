@@ -1,6 +1,7 @@
 ---
 # tasks file for subversion (Ubuntu specific)
 
-- name: Install subversion package
-  apt: name=subversion state=present update_cache=yes
+- name: Install subversion packages
+  apt: name={{ item }} state=present update_cache=yes
+  with_items: subersion_packages
   tags: subversion

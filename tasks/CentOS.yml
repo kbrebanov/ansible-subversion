@@ -1,6 +1,7 @@
 ---
 # tasks file for subversion (CentOS specific)
 
-- name: Install subversion package
-  yum: name=subversion state=present
+- name: Install subversion packages
+  yum: name={{ item }} state=present
+  with_items: subversion_packages
   tags: subversion
