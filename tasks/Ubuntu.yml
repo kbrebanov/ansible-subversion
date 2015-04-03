@@ -3,5 +3,5 @@
 
 - name: Install subversion packages
   apt: name={{ item }} state=present update_cache=yes
-  with_items: subersion_packages
+  with_items: subversion_packages
   tags: subversion
