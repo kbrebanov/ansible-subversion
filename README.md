@@ -1,7 +1,7 @@
 subversion
 ==========
 
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-kbrebanov.subversion-660198.svg)](https://galaxy.ansible.com/list#/roles/3316)
+[![Ansible Role](https://img.shields.io/ansible/role/3316.svg)](https://galaxy.ansible.com/list#/roles/3316)
 
 Installs subversion.
 
